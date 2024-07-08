@@ -4,6 +4,9 @@ def f(x):
     return math.exp(x)
 
 def Integral(a, b, n):
+    a=0
+    b=1
+    n=10000000
     integral=0
     h=(b-a)/n
     x=a
