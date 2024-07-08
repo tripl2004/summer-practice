@@ -2,7 +2,7 @@ import math
 def f(x):
     return math.exp(x)
 
-def Integral(a, b, n):
+def Integral(l, r, n):
     r=1
     l=0
     if n%2!=0:
