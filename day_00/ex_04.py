@@ -9,6 +9,7 @@ def Integral(l, r, n):
         raise ValueError
     h=(r-l)/n
     integral=math.exp(l)+math.exp(r)
+    
     for i in range(1,n):
         x=i*h
         if i%2==0:
