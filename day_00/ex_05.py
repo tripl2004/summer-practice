@@ -25,11 +25,4 @@ for _ in range (7):
     n *= 10
 
 
-def f(x):
-    return math.exp(x)
-def s(left, right, step):
-    h = (right - left) / step
-    s = 0
-    for i in range(step):
-        s += h*f(left + i*h)
-    return s
+
